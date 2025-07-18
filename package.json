@@ -1,0 +1,29 @@
+{
+  "name": "rocky",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.100.201:3002/takkapi/rocky.git"
+  },
+  "license": "ISC",
+  "author": "Takkapi",
+  "type": "commonjs",
+  "main": "src/index.ts",
+  "scripts": {
+    "clean": "rm -rf build/*",
+    "build": "tsc --build",
+    "start": "npm run clean && npm run build && node build/index.js",
+    "startNoClean": "npm run build && node build/index.js",
+    "dev": "npm run clean && npm run build && node build/index.js --dev",
+    "devNoClean": "npm run build && node build/index.js --dev"
+  },
+  "dependencies": {
+    "@types/ms": "^2.1.0",
+    "discord-arts": "^0.7.1",
+    "discord.js": "^14.21.0",
+    "glob": "^11.0.3",
+    "mongoose": "^8.16.3",
+    "ms": "^2.1.3"
+  }
+}
