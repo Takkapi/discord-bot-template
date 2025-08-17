@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "http://192.168.100.201:3002/takkapi/rocky.git"
+    "url": "https://github.com/Takkapi/discord-bot-template.git"
   },
   "license": "ISC",
   "author": "Takkapi",
